@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2uh56lr2s3f1p</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Bullet" version="1">Bullet</behavior>
+        <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="bound" version="1">Bound to layout</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Sprite" sid="365730757728548">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="318164733939796" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Background" sid="985854100024966">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Acer\Downloads\41997.png" />
+        </object-type>
+        <object-type name="Mouse" sid="983892823146883">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Keyboard" sid="531701636297994">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Text" sid="388017133360465">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Sprite2" sid="574324773481981">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="385515010038863" speed="5">
+                    <frame duration="1" hotspotX="0.781457" hotspotY="-0.8" original-source="C:\Users\Acer\Downloads\c46e6f5ef46f66a5cdfefcb567447d3a.png">
+                        <collision-poly>
+                            <point x="0.0264901" y="0.1" />
+                            <point x="0.498896" y="0.116667" />
+                            <point x="0.935982" y="0.241667" />
+                            <point x="0.988962" y="0.5" />
+                            <point x="0.96468" y="0.866667" />
+                            <point x="0.498896" y="0.85" />
+                            <point x="0.0264901" y="0.9" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="kllcount" sid="989620046696654">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="663270861120689" speed="5">
+                    <frame duration="1" hotspotX="0.635246" hotspotY="-0.0416667" original-source="C:\Users\Acer\Downloads\f54adf4fc1b2c21935fb9c9e90ef6561.png">
+                        <collision-poly>
+                            <point x="0.0245902" y="0.1" />
+                            <point x="0.5" y="0.183333" />
+                            <point x="0.915984" y="0.341667" />
+                            <point x="0.981557" y="0.5" />
+                            <point x="0.969262" y="0.875" />
+                            <point x="0.5" y="0.85" />
+                            <point x="0.0245902" y="0.9" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground" sid="473901030655486">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Acer\Downloads\300px-PKMN_FRLG_SeviiIsle9.png" />
+        </object-type>
+        <object-type name="Sprite3" sid="759378376116128">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="114194779978678" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Acer\Downloads\image-removebg-preview (10).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Player" sid="727390365638378">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="HP" name="Health" sid="521115698111306" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="8Direction" sid="315260647274222">
+                    <behavior id="EightDir" />
+                </behavior-type>
+                <behavior-type name="BoundToLayout" sid="591968215550347">
+                    <behavior id="bound" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="237106571498031">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="709375531565027" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502164" original-source="C:\Users\Acer\Downloads\image-removebg-preview (10).png">
+                        <image-point name="Imagepoint 1" x="0.940414" y="0.497835" />
+                        <collision-poly>
+                            <point x="0.277202" y="0.463203" />
+                            <point x="0.5" y="0.112554" />
+                            <point x="0.826425" y="0.290043" />
+                            <point x="0.935233" y="0.497835" />
+                            <point x="0.826425" y="0.709957" />
+                            <point x="0.5" y="0.887446" />
+                            <point x="0.26943" y="0.549784" />
+                            <point x="0.0751295" y="0.497835" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Monster3" sid="888829687715313">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="HP" name="Health" sid="988668756466797" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="258764826217814">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Physics" sid="283733291521057">
+                    <behavior id="Physics" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="622852502549797">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="851898580251421" speed="5">
+                    <frame duration="1" hotspotX="0.501484" hotspotY="0.5" original-source="C:\Users\Acer\Downloads\image-removebg-preview (8).png">
+                        <collision-poly>
+                            <point x="0.390845" y="0.466387" />
+                            <point x="0.5" y="0.092437" />
+                            <point x="0.820423" y="0.214286" />
+                            <point x="0.820423" y="0.5" />
+                            <point x="0.753521" y="0.705882" />
+                            <point x="0.5" y="0.630252" />
+                            <point x="0.426056" y="0.491597" />
+                            <point x="0.426056" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Monster1" sid="231166977602833">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="HP" name="Health" sid="372690410829574" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="475858375696154">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="195571505646211" speed="5">
+                    <frame duration="1" hotspotX="0.502959" hotspotY="0.5" original-source="C:\Users\Acer\Downloads\image-removebg-preview (7).png">
+                        <collision-poly>
+                            <point x="0.349112" y="0.143204" />
+                            <point x="0.497041" y="0.0776699" />
+                            <point x="0.615385" y="0.157767" />
+                            <point x="0.923077" y="0.5" />
+                            <point x="0.615385" y="0.842233" />
+                            <point x="0.497041" y="0.915049" />
+                            <point x="0.343195" y="0.859223" />
+                            <point x="0.0414201" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Monster2" sid="491675611490709">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable comment="HP" name="Health" sid="211543625914347" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="Bullet" sid="638955178159977">
+                    <behavior id="Bullet" />
+                </behavior-type>
+                <behavior-type name="Physics" sid="949012729150900">
+                    <behavior id="Physics" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="290963742939133">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="572509307262715" speed="5">
+                    <frame duration="1" hotspotX="0.50193" hotspotY="0.5" original-source="C:\Users\Acer\Downloads\image-removebg-preview (6).png">
+                        <collision-poly>
+                            <point x="0.343629" y="0.33209" />
+                            <point x="0.498069" y="0.0298507" />
+                            <point x="0.610039" y="0.376866" />
+                            <point x="0.938224" y="0.5" />
+                            <point x="0.6139" y="0.626866" />
+                            <point x="0.498069" y="0.88806" />
+                            <point x="0.250965" y="0.757463" />
+                            <point x="0.0888031" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="535345413854259">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="196669000020491" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Acer\Downloads\lovepik-purple-fireball-element-png-image_401161867_wh1200.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Bulet" sid="659894609886911">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="380725494069212">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="579171680070215" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Acer\Downloads\image-removebg-preview (11).png">
+                        <image-point name="Imagepoint 1" x="0.716" y="0.768" />
+                        <collision-poly>
+                            <point x="0.158" y="0.158" />
+                            <point x="0.5" y="0.21" />
+                            <point x="0.616" y="0.384" />
+                            <point x="0.796" y="0.5" />
+                            <point x="0.752" y="0.752" />
+                            <point x="0.5" y="0.816" />
+                            <point x="0.358" y="0.642" />
+                            <point x="0.27" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Bullet" sid="412632664521744">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Bullet" sid="316211500014878">
+                    <behavior id="Bullet" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="550437256064438" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Acer\Downloads\image-removebg-preview (12).png">
+                        <collision-poly>
+                            <point x="0.255814" y="0.366667" />
+                            <point x="0.5" y="0.2" />
+                            <point x="0.813953" y="0.266667" />
+                            <point x="0.883721" y="0.5" />
+                            <point x="0.790698" y="0.7" />
+                            <point x="0.5" y="0.766667" />
+                            <point x="0.139535" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text2" sid="291014005079618">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable comment="HP" name="Health" sid="378178120554710" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="Sprite5" sid="964112394439729">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="792688414778636" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Acer\Downloads\image-removebg-preview (13).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="364912779401095">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="284036585644372" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.504" original-source="C:\Users\Acer\Downloads\image-removebg-preview (13).png">
+                        <collision-poly>
+                            <point x="0.0967742" y="0.288" />
+                            <point x="0.5" y="0.32" />
+                            <point x="0.913979" y="0.256" />
+                            <point x="0.989247" y="0.496" />
+                            <point x="0.943548" y="0.832" />
+                            <point x="0.5" y="0.808" />
+                            <point x="0.155914" y="0.536" />
+                            <point x="0.00268817" y="0.496" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Particles" sid="355455755181532">
+            <plugin id="Particles" />
+            <texture original-source="C:\Users\Acer\Downloads\image-removebg-preview (15).png" />
+        </object-type>
+        <object-type name="Death" sid="683996567254881">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="825056358310085">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="314643502404557" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Acer\Downloads\image-removebg-preview (15).png">
+                        <collision-poly>
+                            <point x="0.274648" y="0.4875" />
+                            <point x="0.5" y="0.4" />
+                            <point x="0.725352" y="0.4875" />
+                            <point x="0.81338" y="0.5" />
+                            <point x="0.728873" y="0.51875" />
+                            <point x="0.5" y="0.6125" />
+                            <point x="0.274648" y="0.5125" />
+                            <point x="0.200704" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ProgressBar" sid="680675885471591">
+            <plugin id="progressbar" />
+            <instance-variables>
+                <instance-variable name="Health" sid="139371231123713" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="TiledBackground2" sid="865368078489062">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Acer\Downloads\300px-PKMN_FRLG_SeviiIsle9.png" />
+        </object-type>
+        <object-type name="Sprite7" sid="946229621443413">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="263087319046343" speed="5">
+                    <frame duration="1" hotspotX="0.501241" hotspotY="0.502058" original-source="C:\Users\Acer\Downloads\image-removebg-preview (16).png">
+                        <collision-poly>
+                            <point x="0.0297767" y="0.0493827" />
+                            <point x="0.498759" y="0.0205761" />
+                            <point x="0.925558" y="0.123457" />
+                            <point x="0.950372" y="0.917695" />
+                            <point x="0.498759" y="0.930041" />
+                            <point x="0.08933" y="0.851852" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="955256959415469">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="922717277590985" speed="5">
+                    <frame duration="1" hotspotX="0.501229" hotspotY="0.5" original-source="C:\Users\Acer\Downloads\stylized-cartoon-ocean-waves-hand-260nw-691129957-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.039312" y="0.170213" />
+                            <point x="0.938575" y="0.265957" />
+                            <point x="0.970516" y="0.5" />
+                            <point x="0.891892" y="0.531915" />
+                            <point x="0.108108" y="0.531915" />
+                            <point x="0.029484" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Wave" sid="470642044778519">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="777221157898454" speed="5">
+                    <frame duration="1" hotspotX="0.501618" hotspotY="0.5" original-source="C:\Users\Acer\Downloads\stylized-cartoon-ocean-waves-hand-260nw-691129957-rewave.png">
+                        <collision-poly>
+                            <point x="0.0614887" y="0.202128" />
+                            <point x="0.498382" y="0.340426" />
+                            <point x="0.919094" y="0.265957" />
+                            <point x="0.961165" y="0.5" />
+                            <point x="0.857605" y="0.531915" />
+                            <point x="0.142395" y="0.531915" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="348327246073313">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="739812686503240" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Acer\Downloads\image-removebg-preview (17).png">
+                        <collision-poly>
+                            <point x="0.216" y="0.216" />
+                            <point x="0.5" y="0.14" />
+                            <point x="0.808" y="0.192" />
+                            <point x="0.96" y="0.5" />
+                            <point x="0.824" y="0.824" />
+                            <point x="0.5" y="0.796" />
+                            <point x="0.192" y="0.808" />
+                            <point x="0.284" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="428448868478213">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="979486814993351" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Acer\Downloads\image-removebg-preview (18).png">
+                        <collision-poly>
+                            <point x="0.236" y="0.236" />
+                            <point x="0.5" y="0.32" />
+                            <point x="0.604" y="0.396" />
+                            <point x="0.82" y="0.5" />
+                            <point x="0.744" y="0.744" />
+                            <point x="0.5" y="0.728" />
+                            <point x="0.32" y="0.68" />
+                            <point x="0.04" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite11" sid="257520027561890">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="796154922721619" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Acer\Downloads\image-removebg-preview (20).png">
+                        <collision-poly>
+                            <point x="0.416" y="0.416" />
+                            <point x="0.5" y="0.108" />
+                            <point x="0.536" y="0.464" />
+                            <point x="0.62" y="0.5" />
+                            <point x="0.904" y="0.904" />
+                            <point x="0.5" y="0.94" />
+                            <point x="0.104" y="0.896" />
+                            <point x="0.368" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12" sid="295445180372553">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="955361601926585" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Acer\Downloads\image-removebg-preview (19).png">
+                        <collision-poly>
+                            <point x="0.396" y="0.396" />
+                            <point x="0.5" y="0.404" />
+                            <point x="0.624" y="0.376" />
+                            <point x="0.564" y="0.5" />
+                            <point x="0.776" y="0.776" />
+                            <point x="0.5" y="0.568" />
+                            <point x="0.452" y="0.548" />
+                            <point x="0.256" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite13" sid="228538024639843">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="208298782012794" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501193" original-source="C:\Users\Acer\Downloads\image-removebg-preview (21).png">
+                        <collision-poly>
+                            <point x="0.238255" y="0.338902" />
+                            <point x="0.5" y="0.0906921" />
+                            <point x="0.77349" y="0.322196" />
+                            <point x="0.808725" y="0.498807" />
+                            <point x="0.776846" y="0.682578" />
+                            <point x="0.5" y="0.928401" />
+                            <point x="0.233221" y="0.668258" />
+                            <point x="0.209732" y="0.498807" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Play" sid="699113587768108">
+            <plugin id="Sprite" />
+            <container>
+                <type>Button</type>
+                <type>Play</type>
+            </container>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="159430475758758" speed="5">
+                    <frame duration="1" hotspotX="0.500867" hotspotY="0.501155" original-source="C:\Users\Acer\Downloads\image-removebg-preview (22).png">
+                        <collision-poly>
+                            <point x="0.310225" y="0.413395" />
+                            <point x="0.499133" y="0.237875" />
+                            <point x="0.684575" y="0.420323" />
+                            <point x="0.694974" y="0.498845" />
+                            <point x="0.688042" y="0.584296" />
+                            <point x="0.499133" y="0.7806" />
+                            <point x="0.299827" y="0.600462" />
+                            <point x="0.289428" y="0.498845" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button" sid="385784248217786">
+            <plugin id="Button" />
+            <container>
+                <type>Button</type>
+                <type>Play</type>
+            </container>
+        </object-type>
+        <object-type name="Sprite14" sid="429096804296333">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="189634593576407" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Acer\Downloads\image-removebg-preview (22).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite15" sid="491574571295638">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="538451448269147" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Acer\Downloads\image-removebg-preview (23).png">
+                        <collision-poly>
+                            <point x="0.0306122" y="0.0508475" />
+                            <point x="0.5" y="0.131356" />
+                            <point x="0.918367" y="0.135593" />
+                            <point x="0.956633" y="0.927966" />
+                            <point x="0.5" y="0.940678" />
+                            <point x="0.0637755" y="0.894068" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite16" sid="706770225336618">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="480229160524496" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Acer\Downloads\image-removebg-preview (24).png">
+                        <collision-poly>
+                            <point x="0.0257353" y="0.12069" />
+                            <point x="0.5" y="0.215517" />
+                            <point x="0.946691" y="0.25" />
+                            <point x="0.985294" y="0.5" />
+                            <point x="0.970588" y="0.862069" />
+                            <point x="0.5" y="0.758621" />
+                            <point x="0.0459559" y="0.784483" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite17" sid="581858089096656">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="265568242526667" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Acer\Downloads\image-removebg-preview (25).png">
+                        <collision-poly>
+                            <point x="0.0242215" y="0.12069" />
+                            <point x="0.5" y="0.112069" />
+                            <point x="0.927336" y="0.362069" />
+                            <point x="0.979239" y="0.5" />
+                            <point x="0.975779" y="0.87931" />
+                            <point x="0.5" y="0.862069" />
+                            <point x="0.0432526" y="0.784483" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+        <layout>Layout 2.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="7" />
+        <global-instance type="Keyboard" uid="8" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
